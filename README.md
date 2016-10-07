@@ -4,4 +4,4 @@ User Story: I can search Wikipedia entries in a search box and see the resulting
 
 User Story: I can click a button to see a random Wikipedia entry.
 
-View Demo on Codepen: http://codepen.io/lliu05/full/wGjrGQ/
+View Demo on Heroku: https://luna-wiki-viewer.herokuapp.com/
