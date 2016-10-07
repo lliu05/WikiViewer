@@ -52,7 +52,7 @@ input {
 .icon {
   position: absolute;
   margin: 33px;
-  margin-left: 0px;
+  margin-left: 0;
   font-size: 25px;
   right: 3px;
   color: #FE9A2E;

@@ -1,6 +1,6 @@
 $(document).ready(function(){  
   $("#searchBox").keyup(function(event){
-    if(event.keyCode == 13 && document.getElementById("searchBox").value != ""){
+    if(event.keyCode === 13 && document.getElementById("searchBox").value !== ""){
       $("ul").empty();
       
       var searchContent = document.getElementById("searchBox").value;
@@ -12,7 +12,7 @@ $(document).ready(function(){
         dataType: 'jsonp',
         success: function (data) {
           console.log(data);
-          if (data[1] != "") {
+          if (data[1] !== "") {
             for (var i = 0; i < data[1].length; i++) {
               var ul = document.getElementById("list");
               var li = document.createElement("li");         
