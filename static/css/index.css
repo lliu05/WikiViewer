@@ -37,7 +37,7 @@ input {
   font-family: monospace;
   font-size: 25px;
   position: relative;
-  width: 370px;
+  width: 430px;
   line-height: 35px;
   border-radius: 20px;
   border: 3px solid #7575a3;
@@ -53,8 +53,8 @@ input {
   position: absolute;
   margin: 33px;
   margin-left: 0px;
-  font-size: 20px;
-  right: 25px;
+  font-size: 25px;
+  right: 10px;
   color: #FE9A2E;
 }
 

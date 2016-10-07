@@ -4,15 +4,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Wikipedia Viewer</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>   
+    <script src="index.js"></script>   
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'> 
+    <link rel="stylesheet" href="index.css"></link>
   </head>
-  <body class="container ctn-boss">
-    <div class="container ctn-center">
-      <div class="container ctn-random">
+  <body class="ctn-boss">
+    <div class="ctn-center">
+      <div class="row ctn-random">
         <a class="link" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Random Article on Wikipedia</a>
       </div>
-      <div class="container ctn-search">
+      <div class="row ctn-search">
         <input class="search_bar" id="searchBox" placeHolder="Search on Wikipedia"/><i class="icon fa fa-search"></i>
       </div>
     </div>
